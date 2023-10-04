@@ -3,12 +3,11 @@ package api_learning;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
-import org.openqa.selenium.By;
 import platform.Platform;
 
 import static driver.DriverFactory.getDriver;
 
-public class LoginFormTest {
+public class Lesson_15 {
     public static void main(String[] args){
         AppiumDriver<MobileElement> appiumDriver = getDriver(Platform.ANDROID);
 
